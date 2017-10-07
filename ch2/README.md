@@ -3,6 +3,7 @@
 ## リソース
 * Puppetにおけるサーバーの状態を宣言する最小の単位
 * サーバーが保有するユーザーやファイル、サービスやパッケージなど要素を、仮想的な資源と見なしたもの
+* 主要なリソース(Core types)は、[Core types cheat sheet](https://docs.puppet.com/puppet/latest/cheatsheet_core_types.html)を参照
 
 ## 依存関係
 * 前提として、Puppetではマニフェストのコンパイル時に最適と考えた実行順でリソースを並び替える (開発者が期待した通りの実行順とは限らない)
