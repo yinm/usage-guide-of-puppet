@@ -1,1 +1,1 @@
-# usage-guide-of-puppet
+[Puppet［設定＆管理］活用ガイド](http://gihyo.jp/book/2017/978-4-7741-9116-4)をやっています。
