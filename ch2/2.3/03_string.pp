@@ -1,0 +1,3 @@
+$n = 'test'
+
+notify {$n:}
