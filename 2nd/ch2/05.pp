@@ -1,3 +1,7 @@
+package {'ntp':
+  ensure => installed,
+}
+->
 file {'/etc/ntp.conf':
   ensure => file,
   content => @("NTPCONF"/L)
@@ -5,4 +9,10 @@ file {'/etc/ntp.conf':
   server 192.168.1.1
   |NTPCONF
   ,
+}
+~>
+service {'ntpd':
+  ensure => running,
+  enable => true,
+  hasrestart => true,
 }
