@@ -52,5 +52,6 @@
   * 外部のテンプレートファイルを使用する
   * インラインテンプレートファイルを使用する
 
-
-
+## ヒアドキュメント (Heredocs)
+* 開始する場所には、`@(終端識別子)`、終了する場所には、`|終端識別子` を記述する
+* 具体的な説明は、[Language: Data types: Strings](https://docs.puppet.com/puppet/5.3/lang_data_string.html#heredocs)
